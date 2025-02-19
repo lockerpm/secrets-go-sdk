@@ -1,4 +1,4 @@
-module go-sdk
+module secrets-sdk-go
 
 go 1.22.3
 
