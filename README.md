@@ -37,7 +37,7 @@ The documentation will be updated later.
 Install with go get:
 
 ```bash
-go get https://github.com/lockerpm/secrets-sdk-go
+go get github.com/lockerpm/secrets-sdk-go
 ```
 
 ## Usages
@@ -159,7 +159,7 @@ lockerClient.SetCooldown(5)   // seconds, only accept integer value
 
 Install required packages.
 ```bash
-go get https://github.com/lockerpm/secrets-sdk-go
+go get github.com/lockerpm/secrets-sdk-go
 ```
 
 ### Run tests
