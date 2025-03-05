@@ -3,10 +3,11 @@ package test
 import (
 	"log"
 	"os"
-	"sdk-test/locker"
-	"sdk-test/types"
 	"strings"
 	"testing"
+
+	"github.com/lockerpm/secrets-sdk-go/locker"
+	"github.com/lockerpm/secrets-sdk-go/types"
 
 	"github.com/joho/godotenv"
 )

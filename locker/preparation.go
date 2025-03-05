@@ -4,8 +4,9 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"sdk-test/types"
 	"strconv"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

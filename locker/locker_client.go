@@ -4,7 +4,8 @@ import (
 	"log"
 	"os"
 	"path/filepath"
-	"sdk-test/types"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 
 	"gorm.io/gorm"
 )

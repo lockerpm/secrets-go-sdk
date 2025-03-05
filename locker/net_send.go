@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"sdk-test/types"
 	"time"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 )
 
 func (locker *Locker) httpActionOut(method, endpoint string, body []byte) ([]byte, int, error) {

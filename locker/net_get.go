@@ -5,10 +5,11 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"sdk-test/types"
 	"strconv"
 	"strings"
 	"time"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 
 	"gorm.io/gorm/clause"
 )

@@ -8,8 +8,9 @@ import (
 	"crypto/sha256"
 	"encoding/base64"
 	"fmt"
-	"sdk-test/types"
 	"strings"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 )
 
 /*========================================================================================================================*/

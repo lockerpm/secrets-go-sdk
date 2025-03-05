@@ -4,7 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"sdk-test/types"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

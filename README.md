@@ -50,7 +50,7 @@ You may also need to set `APIBase` value (default value is `https://api.locker.i
 
 ```go
 import (
-	"sdk-test/locker"
+	"github.com/lockerpm/secrets-sdk-go/locker"
 )
 
 func main() {

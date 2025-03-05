@@ -4,7 +4,8 @@ import (
 	"crypto/sha256"
 	"fmt"
 	"io"
-	"sdk-test/types"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 
 	"golang.org/x/crypto/hkdf"
 )

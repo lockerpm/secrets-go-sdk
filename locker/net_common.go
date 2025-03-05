@@ -2,7 +2,8 @@ package locker
 
 import (
 	"net/http"
-	"sdk-test/types"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 )
 
 func (locker *Locker) setHeaders(req *http.Request, post bool) {

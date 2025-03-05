@@ -3,7 +3,8 @@ package locker
 import (
 	"fmt"
 	"os"
-	"sdk-test/types"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 )
 
 func jsonLog(errMessage string) {

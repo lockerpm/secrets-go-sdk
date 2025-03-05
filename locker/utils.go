@@ -5,8 +5,9 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"sdk-test/types"
 	"strings"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 )
 
 func (locker *Locker) ExportOutput(result interface{}, dataFormat string) error {

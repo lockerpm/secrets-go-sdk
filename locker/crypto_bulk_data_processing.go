@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"reflect"
 	"regexp"
-	"sdk-test/types"
 	"strings"
+
+	"github.com/lockerpm/secrets-sdk-go/types"
 )
 
 var encryptedStringPattern = regexp.MustCompile(`2\..*\|.*\|.*`)
